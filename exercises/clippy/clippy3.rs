@@ -5,9 +5,9 @@
 
 #[allow(unused_variables, unused_assignments)]
 fn main() {
-    let my_option: Option<()> = None; //Option is unit type or none
-    if my_option.is_some() { //Program panics at unwraping None. Sugestion handling it OR custom panic, as suggested 
-        //my_option.unwrap(); clippy wont allow the unwrap into a unit type Some (noted as "()"), you can hide it or add a value on the variable above. I choose to simply remove.
+    let my_option: Option<()> = None;
+    if let Some(()) = my_option {
+        my_option.unwrap();
     }
 
     let my_arr = &[
