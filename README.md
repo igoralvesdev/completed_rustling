@@ -1,5 +1,5 @@
 # Rustlings Solutions
-This repository have my personal solutions to Rustlings exercises as of 08.2022, so they can (will) get deprecated in the future due changes by the Rustling team. 
+This repository have my personal solutions to ALL Rustlings exercises as of 08.2022, so they can (will) get deprecated in the future due changes by the Rustling team. Until there feel free to use my solutions as inspiration! 
 
 All files were add via upload (I can't really explain why, but it ended up like that). IF you try to use this for whatever reason, be mindful of that, for example, clippy relies on its own foulder.
 
